@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Uploaded files
+uploads/
+*.pdf
+
+# Test outputs
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Static analysis/mypy cache
+.mypy_cache/
+.pytest_cache/
+
+# Ignore static and template cache (if any)
+static/*.tmp
+templates/*.tmp
